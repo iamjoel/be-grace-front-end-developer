@@ -11,7 +11,7 @@
 * 预先善其事，必先利其器
 	* 编辑器
 		* [Sublime](http://www.sublimetext.com/3) 最性感的编辑器。我的最爱。
-		* [Webstrom](https://www.jetbrains.com/webstorm/)
+		* [Webstorm](https://www.jetbrains.com/webstorm/)
 		* [brackets](http://brackets.io/)
 		* [vim](http://zh.wikipedia.org/zh/Vim) 编辑器的神
 		* [emacs](http://zh.wikipedia.org/zh/Emacs) 神的编辑器
@@ -29,12 +29,17 @@
 		* [fiddler](http://www.telerik.com/fiddler) 只能在windows上用。主要用它来的Auto Responder的功能来将本地文件来替换线上文件。
 		* [LivePool](http://rehorn.github.io/livepool/) 是一个基于 NodeJS，类似 Fiddler，支持抓包和本地替换的 Web 开发调试工具
 		* [mockjax](https://github.com/jakerella/jquery-mockjax) 是个脚本库，主要用来模拟各种方法的异步请求
-	* 项目构建工具（YEOMAN）
-		* 包管理工具： bower，npm之类
-		* 生成项目的脚手架：Yo
+	* 项目构建工具
+		* 包管理工具：npm 
+        * 前端模块管理
+            * [RequireJS](http://requirejs.org/) AMD 格式异步加载模块
+            * [Bower](http://bower.io/) 为模块安装升级提供统一可维护的管理模式
+            * [Browserify](http://browserify.org/) 在浏览器端使用 CommonJS 模块
+            * [Component](https://github.com/componentjs/component) 将网页所需的各种资源（脚本，样式表，图片，字体）编译后放到同一目录中
+		* 生成项目的脚手架：[YEOMAN](http://yeoman.io/)
 		* 任务管理：Grunt，Gulp
 	* 预处理语言
-		* Less,Sass（推荐Sass，因为有[compass](http://compass-style.org/))
+		* Less, Sass（推荐Sass，因为有[compass](http://compass-style.org/))
 		* Coffee Script
 * 练好内功
 	* [html5](learn/html)
